@@ -1,0 +1,177 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f3f7;
+    margin: 0;
+    padding: 20px;
+  }
+header{
+    text-align: center;
+    background: linear-gradient(to right, #8e44ad, #9b59b6);/* pink + light blue */
+    margin: 5px;
+    padding: 0.5px;
+    border-radius: 20px;
+    color: rgb(249, 242, 247);
+   
+    box-shadow:1em rgba(12, 1, 1, 0.774) ;
+}
+header:hover{
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+section {
+    margin: 30px auto;
+    max-width: 900px;
+    padding: 2em;
+    font-size: 18px;
+    line-height: 1.6;
+    position: relative;
+  }
+section:hover{
+    transform: scale(1.01);
+    transition:0.3s;
+}
+a {
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: background 0.3s ease;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px;
+  background: linear-gradient(to right, #8e44ad, #9b59b6);
+  color: aquamarine;
+}
+
+
+a:hover{
+    color: blue;
+}
+.skills h2{
+    background: linear-gradient(to right, #9b59b6, #8e44ad);
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    width: fit-content;
+    
+    
+ 
+}
+.skills h2:hover {
+    transform: scale(1.10);
+    transition: 0.3s;
+
+}
+
+.skills h4{
+    background: linear-gradient(to right, #9b59b6, #8e44ad);
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    width: fit-content;
+    text-align: inline;
+    display: inline-block;
+}
+.skills h4:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000; /* ensures it stays on top */
+}
+
+.project h2{
+    background: linear-gradient(to right, #9b59b6, #8e44ad);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: left;
+}
+.project h2:hover{
+    transform: scale(1.10);
+    transition: 0.3s;
+}
+.project h4{
+    text-align: left;
+    background:linear-gradient(to right,#9b59b6,#8e44ad);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.project h4:hover{
+
+    transform: scale(1.10);
+    transition: 0.3s;
+}
+.project p{
+    text-align: left;
+    background:linear-gradient(to right,#9b59b6,#8e44ad);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    
+    }
+.project p:hover{
+    transform:scale(1.01);
+    transition: 0.3s;
+}
+#images{
+    width: fit-content;
+    rotate: 12px;
+}
+#images:hover{
+   
+    transform:scale(1.6);
+    transition: 0.3s;
+}
+.card {
+    background-color: #6e62b6;
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin: 10px 0;
+    color: white;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  }
+  .card:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+  }
+  @media (max-width: 768px) {
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #f5f3f7;
+        margin: 0;
+        padding: 20px;
+      }
+    section {
+      padding: 1em;
+      font-size: 16px;
+      
+    }
+  
+    .skills h4, .project p {
+      display: inline-block;
+      width: fit-content;
+    }
+  
+    .myproject{
+        margin: 20px;
+        position: flex;
+    }
+  
+  }
+  
